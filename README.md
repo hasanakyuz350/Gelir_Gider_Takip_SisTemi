@@ -1,11 +1,10 @@
-
-# 💰 Gelir Gider Takibi
+💰 Gelir Gider Takibi
 
 Kullanıcıların aylık maaşlarını ve harcamalarını takip etmelerini sağlayan, kategorilere göre analizler sunan ve görsel grafiklerle desteklenen ASP.NET Core MVC tabanlı bir web uygulaması.
 
 ---
 
-## 🚀 Özellikler
+🚀 Özellikler
 
 - **Aylık Maaş Takibi**: Kullanıcılar her ay için maaş bilgilerini kaydedebilir.
 - **Harcama Ekleme & Kategorileme**: Harcamalar kategori bazlı olarak eklenebilir (Gıda, Ulaşım, Eğlence vb.).
@@ -15,7 +14,7 @@ Kullanıcıların aylık maaşlarını ve harcamalarını takip etmelerini sağl
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+🛠️ Kullanılan Teknolojiler
 
 - **Backend**: ASP.NET Core MVC (C#)
 - **Frontend**: HTML5, CSS3, JavaScript (Custom, Bootstrap kullanılanarak)
@@ -25,21 +24,20 @@ Kullanıcıların aylık maaşlarını ve harcamalarını takip etmelerini sağl
 
 ---
 
-## 📂 Proje Yapısı
+📂 Proje Yapısı
 
-- **Controllers/ # MVC Controller dosyaları
-- **Models/ # Veri modelleri (Entity Framework)
-- **Views/ # Razor View sayfaları
-- **wwwroot/ # Statik dosyalar (CSS, JS, img)
-- **Migrations/ # EF Core migration dosyaları
-- **Program.cs # Uygulama başlangıç noktası
+- **Controllers
+- **Models
+- **Views
+- **wwwroot
+- **Migrations
+- **Program.cs
 
 ---
 
-## 🧰 Veritabanı Yapısı
+🧰 Veritabanı Yapısı
 
 - **ThismonThsalary → Aylık maaş kayıtları
 - **ThismonThsalaryspending → Harcamalar (kategori ve tutar bilgisiyle)
 - **Categories → Harcama kategorileri
 - **Users → Kullanıcı hesapları
-- **Admin → Yönetici bilgileri
