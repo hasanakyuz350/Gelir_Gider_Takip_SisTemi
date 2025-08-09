@@ -27,14 +27,16 @@ Kullanıcıların aylık maaşlarını ve harcamalarını takip etmelerini sağl
 
 ## 📂 Proje Yapısı
 
-Gelir_Gider_Takibi/
+Gelir_Gider_Takibi
+
 │
-├── Controllers/ # MVC Controller dosyaları
-├── Models/ # Veri modelleri (Entity Framework)
-├── Views/ # Razor View sayfaları
-├── wwwroot/ # Statik dosyalar (CSS, JS, img)
-├── Migrations/ # EF Core migration dosyaları
-└── Program.cs # Uygulama başlangıç noktası
+
+- **Controllers/ # MVC Controller dosyaları
+- **Models/ # Veri modelleri (Entity Framework)
+- **Views/ # Razor View sayfaları
+- **wwwroot/ # Statik dosyalar (CSS, JS, img)
+- **Migrations/ # EF Core migration dosyaları
+- **Program.cs # Uygulama başlangıç noktası
 
 ---
 
