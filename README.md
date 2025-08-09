@@ -31,6 +31,8 @@ Gelir_Gider_Takibi
 
 │
 
+___
+
 - **Controllers/ # MVC Controller dosyaları
 - **Models/ # Veri modelleri (Entity Framework)
 - **Views/ # Razor View sayfaları
